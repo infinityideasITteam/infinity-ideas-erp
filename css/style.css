@@ -1,0 +1,49 @@
+/* Basic body styling */
+body {
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the card (login form container) */
+.card {
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Styling for the form labels */
+.form-label {
+    color: #6c757d;
+}
+
+/* Styling for the primary button */
+.btn-primary {
+    background-color: #6d5bba;
+    border: none;
+}
+
+/* Hover effect for the primary button */
+.btn-primary:hover {
+    background-color: #5c49a4;
+}
+
+/* Styling for the link in the form */
+p a {
+    color: #6d5bba;
+    text-decoration: none;
+}
+
+/* Hover effect for the link */
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .card {
+        padding: 2rem;
+    }
+}
